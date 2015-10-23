@@ -1,3 +1,9 @@
+html
+{
+width: auto;
+height:auto;  
+}
+
  {
   margin: 0;
   padding: 0;
@@ -18,7 +24,7 @@ body {
    	font-family:cursive;
    	margin-top:-10px;
     margin-bottom:50px;
-    margin-left:-200px;
+    margin-left:-198px;
     height:70px;
     width:1360px;
     background:#BDBDBD;	
@@ -36,12 +42,13 @@ width: 400px;
 
    /*estilo de la barra para buscar*/
    .barra{margin:-10px;width: 35%; margin-left:-200px;}
-   .go{margin-top:30px;width: 60px;border-radius:20px;height: 25px;margin-left: 5px;background-color:#BDBDBD }
+   .go{cursor: pointer; margin-top:30px;width: 55px;border-radius:20px;
+    height: 25px;margin-left: 8px;background-color:#BDBDBD }
  }
 
 input{ width: 70%;height: 30px;border-radius: 10px;
  font: 200 15px "Open Sans", Arial, sans-serif;
- margin-top: 30px;
+ margin-top: 20px;
  margin-left:10px;
 
 }
@@ -59,29 +66,92 @@ input{ width: 70%;height: 30px;border-radius: 10px;
 .form{
 
 width: 400px;
-height: 200px;
+height: 280px;
 background-color:#BDBDBD;
 border-radius: 20px;
-	margin-top: 75px;
-	margin-left: 260px;
+margin-top: 75px;
+margin-left: 260px;
+
 
 }
 .inpu
 {
 width: 70%;height: 30px;border-radius: 10px;
  font: 200 15px "Open Sans", Arial, sans-serif;
- margin-top: 30px;
+ margin-top: 15px;
  margin-left:10px;
+letter-spacing: 5px;}
+
+.input-email{
+width: 50%;height: 30px;border-radius: 10px;
+ font: 150 15px Arial;
+ margin-top: -5px;
+ margin-left:5px;
+letter-spacing: 5px;}
+
+.btn{
+border-radius: 10px;cursor: pointer;font: 13px tahoma,Arial,sans-serif;border:none;
+padding: 10px 15px;
+text-decoration: none;
+cursor: pointer;
+border: 1px solid #333;
+letter-spacing: 1px;
+margin-top: -10px;
+}
+
+
+.cuadroR{   width: 1365px;
+height:70px;
+background-color:#BDBDBD;
+border-radius: 5px;
+  margin-top: -6px;
+  margin-left:-200px;  }
+  .formR{
+    width: 400px;
+height: 480px;
+background-color:#BDBDBD;
+border-radius: 20px;
+  margin-top: 40px;
+  margin-left: 260px;}
+
+  #link{
+color: blue;
+  }
+#tabla-correo{
+  
+  color: black;
+  background:#BDBDBD;margin-top:12px; 
+  border-collapse:separate;
+  border-spacing:30px;
+  padding: 10px;
+  margin-left: 120px;
+  border: solid 1px; 
+  margin-top: -80px;
+
+     }
+     .tabla
+{
+height:400px;
+width:999;
+}
+.goes{
+border-radius: 10px;cursor: pointer;font: 13px tahoma,Arial,sans-serif;border:none;
+padding: 5px 15px;
+text-decoration: none;
+cursor: pointer;
+border: 1px solid #333;
+letter-spacing: 1px;
+float:left;
+margin-top:-10px;margin-left:-65px;
+width: 90px;
+}
+.etiqueta{
+margin-left: -190px;
+font: 13px tahoma,Arial,sans-serif;border:none;
+color: #000;
+}
+label{
+font: 30px tahoma,Arial,sans-serif;border:none;
+color: #000;
 
 }
-.btn{border-radius: 10px;}
-
-/*h2{
- font-size:50px;
- color: #FF9900;
- text-shadow: 2px 2px #222;
- font-family: "Open Sans";
- border-bottom: 2px solid #FFF;
- text-align: center;
- margin: 0 0 5px 0;
-}*/

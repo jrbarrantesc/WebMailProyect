@@ -4,10 +4,28 @@ width: auto;
 height:auto;  
 }
 
- {
-  margin: 0;
-  padding: 0;
-}
+.tex{width:600px;height:15px;margin-top: 10px;margin-left: 5px;padding: 2px;resize :none;}
+.texA{width:600px;height:15px;margin-top: 10px;margin-left: 15px;padding: 2px;resize :none;}
+.estilotextarea {font-family: arial ;font-size : 15px; resize :none; margin-top: 10px;
+  margin-left: 10px; width:700px;height:200px;
+  background-color: #FFFFFF;border: 1px solid #000000
+  ;scrollbar-arrow-color: #000066;scrollbar-base-color: #000033
+  ;scrollbar-dark-shadow-color: #336699;scrollbar-track-color: #666633;
+  scrollbar-face-color: #cc9933;scrollbar-shadow-color: #DDDDDD;
+  scrollbar-highlight-color: #CCCCCC;}
+  .et{font-size:15px;color:#585858;margin-left: -25px;font-style:oblique;}
+#contenedorTextarea{background-color: #BDBDBD;margin-left: 80px;height:450px;}
+.NewMesa{color:white;margin-left: 5px;}
+#nuevomen{background-color: #BDBDBD;margin-left:80px;height: 38px;width: 886px;}
+.botons{border-radius: 10px;cursor: pointer;font: 10px tahoma,Arial,sans-serif;border:none;
+padding: 5px 15px;
+text-decoration: none;
+cursor: pointer;
+border: 1px solid #333;
+letter-spacing: 1px;
+float:left;
+margin-top:-10px;margin-left:-65px;
+width: 95px;}
 body {
 	color :white;
     background-color:#585858;
@@ -119,7 +137,7 @@ color: blue;
   }
 #tabla-correo{
   
-  color: black;
+  color: #000;
   background:#BDBDBD;margin-top:12px; 
   border-collapse:separate;
   border-spacing:30px;
@@ -135,7 +153,7 @@ height:400px;
 width:999;
 }
 .goes{
-border-radius: 10px;cursor: pointer;font: 13px tahoma,Arial,sans-serif;border:none;
+border-radius: 10px;cursor: pointer;font: 10px tahoma,Arial,sans-serif;border:none;
 padding: 5px 15px;
 text-decoration: none;
 cursor: pointer;
@@ -143,7 +161,21 @@ border: 1px solid #333;
 letter-spacing: 1px;
 float:left;
 margin-top:-10px;margin-left:-65px;
-width: 90px;
+width: 95px;
+
+}
+.goesO{
+border-radius: 10px;cursor: pointer;font: 10px tahoma,Arial,sans-serif;border:none;
+padding: 5px 15px;
+text-decoration: none;
+cursor: pointer;
+border: 1px solid #333;
+letter-spacing: 1px;
+float:left;
+margin-top:-10px;margin-left:-65px;
+width: 95px;
+background-color:#FFFFFF;
+height: 28px;
 }
 .etiqueta{
 margin-left: -190px;
@@ -155,3 +187,26 @@ font: 30px tahoma,Arial,sans-serif;border:none;
 color: #000;
 
 }
+.btns{height: 300px;width:5px;float :left;background-color: transparent;margin-right: -20px;margin-top: 10px; }
+
+.botones{border-radius: 10px;cursor: pointer;font: 12px tahoma,Arial,sans-serif;
+padding: 5px 15px;
+cursor: pointer;
+border: 1px solid #333;
+letter-spacing: 1px;
+float:left;
+margin-top:10px;margin-left:-75px;
+width: 95px;
+height: 35px;
+ background-color:#BDBDBD}
+.enviar{cursor: pointer; margin-top:20px;width: 85px;height:35px; border-radius:10px;margin-left:-600px;background-color: #ffffff} 
+.botonesR{border-radius: 10px;cursor: pointer;font-size: 15px tahoma,Arial,sans-serif;
+padding: 5px 15px;
+cursor: pointer;
+border: 1px solid #333;
+letter-spacing: 1px;
+float:left;
+margin-top:10px;margin-left:-75px;
+width: 95px;
+height: 35px;
+ background-color:#ffffff}

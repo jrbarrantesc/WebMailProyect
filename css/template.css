@@ -1,10 +1,12 @@
 html
 {
 width: auto;
-height:auto;  
+height:auto; 
+font-size: 20px; 
 }
-.tex{width:600px;height:15px;margin-top: 10px;margin-left: 5px;padding: 2px;resize :none;}
-.texA{width:600px;height:15px;margin-top: 10px;margin-left: 15px;padding: 2px;resize :none;}
+.cont{margin-left: 10px;}
+.tex{width:400px;height:14px;margin-top: 10px;margin-left: -35px;padding: 2px;resize :none;}
+.texA{width:400px;height:14px;margin-top: 10px;margin-left: -8px;padding: 2px;resize :none;}
 .estilotextarea {font-family: arial ;font-size : 15px; resize :none; margin-top: 10px;
   margin-left: 10px; width:700px;height:200px;
   background-color: #FFFFFF;border: 1px solid #000000
@@ -12,10 +14,10 @@ height:auto;
   ;scrollbar-dark-shadow-color: #336699;scrollbar-track-color: #666633;
   scrollbar-face-color: #cc9933;scrollbar-shadow-color: #DDDDDD;
   scrollbar-highlight-color: #CCCCCC;}
-  .et{font-size:15px;color:#585858;margin-left: -25px;font-style:oblique;}
-#contenedorTextarea{background-color: #BDBDBD;margin-left: 80px;height:450px;}
+  .et{font-size:15px;color:#585858;margin-left: 25px;font-style:oblique;}
+#contenedorTextarea{background-color: #BDBDBD;margin-left:1px;height:550px;width:900 }
 .NewMesa{color:white;margin-left: 5px;}
-#nuevomen{background-color: #BDBDBD;margin-left:80px;height: 38px;width: 886px;}
+#nuevomen{background-color: #BDBDBD;margin-left:80px;height: 38px;width: 786px;}
 .botons{border-radius: 10px;cursor: pointer;font: 10px tahoma,Arial,sans-serif;border:none;
 padding: 5px 15px;
 text-decoration: none;
@@ -72,7 +74,7 @@ input{ width: 70%;height: 30px;border-radius: 10px;
 .contenedor
 {
 
-   	font-family:cursive;
+   	font-family:ARIAL;
    	margin-top:-10px;
     margin-bottom:50px;
     margin-left:-230px;
@@ -81,7 +83,6 @@ input{ width: 70%;height: 30px;border-radius: 10px;
     background:#BDBDBD;
 }
 .form{
-
 width: 400px;
 height: 280px;
 background-color:#BDBDBD;
@@ -94,10 +95,10 @@ margin-left: 260px;
 .inpu
 {
 width: 70%;height: 30px;border-radius: 10px;
- font: 200 15px "Open Sans", Arial, sans-serif;
+ font: 200 15px "sans-serif", Arial, sans-serif;
  margin-top: 15px;
  margin-left:10px;
-letter-spacing: 5px;}
+letter-spacing: 1px;}
 
 .input-email{
 width: 50%;height: 30px;border-radius: 10px;
@@ -205,12 +206,12 @@ height: 25px;}
 .etiqueta{
 margin-left: -190px;
 font: 13px tahoma,Arial,sans-serif;border:none;
-
 }
+#checkbox{background-color: white}
 label{
-font: 30px tahoma,Arial,sans-serif;border:none;
-color: #000;
-
+font: 80px tahoma,Arial,sans-serif;border:none;
+}
+    visibility: visible;
 }
 .btns{height: 300px;width:5px;float :left;background-color: transparent;margin-right: -20px;margin-top: 10px; }
 
@@ -224,7 +225,18 @@ margin-top:10px;margin-left:-75px;
 width: 95px;
 height: 35px;
  background-color:#BDBDBD}
-.enviar{cursor: pointer; margin-top:20px;width: 85px;height:35px; border-radius:10px;margin-left:-600px;background-color: #ffffff} 
+.botonesC
+{border-radius: 10px;cursor: pointer;font: 12px tahoma,Arial,sans-serif;
+padding: 5px 15px;
+cursor: pointer;
+border: 1px solid #333;
+letter-spacing: 1px;
+float:left;
+margin-top:100px;margin-left:-75px;
+width: 95px;
+height: 35px;
+ background-color:#BDBDBD}
+.enviar{cursor: pointer; margin-top:280px;width: 85px;height:35px; border-radius:10px;margin-left:-100px;background-color: #ffffff} 
 .botonesR{border-radius: 10px;cursor: pointer;font-size: 15px tahoma,Arial,sans-serif;
 padding: 5px 15px;
 cursor: pointer;
@@ -330,9 +342,7 @@ input:-moz-placeholder {
 }
 
 
-/****************
- * Pretify demo *
- ****************/
+
 .h1 {
   float: left;
   margin: 25px;

@@ -1,31 +1,57 @@
 <!Doctype html>
+<!--Html deel login  o inicio de seccion -->
 <html>
 <head>
-<title>tumail.es</title>
+	<!-- -->
+<title> Login tumail.es</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta charset="utf-8" />
+<!-- referencias -->
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="css/Template.css"/>
 <link rel="stylesheet" href="js/DOCUMENTO.js"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
 </head>
 <body>
-	<header>
-<div class="contenedor">
+ <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+
+
+<div class="navbar-fixed">
 <a  target ="blank"><img src ="C:\Users\Alexander\Documents\Web\ProyectoWeb\WebMailProyect\img\tumail.png"alt =""</a></div>
 <!--Formulario para ingresar el usuario y password-->
-<form>
-<div class = "form"><pre></pre>
-	<label>Login</label><br/>
-<input class = "inpu" type="email" name="email" placeholder="  Email"required>
-<input class = "inpu" type = "password" name "password" placeholder ="  Password">
-<label>
-  <input class ="conectad"type="checkbox" value="yes" name="SkipCaptcha" id="SkipCaptcha"><label class = "etiqueta">Seguir Conectado</label>    <a id = "link "<span title="Registrese" target = "_Blank"href="file:///C:/Users/Alexander/Documents/Web/ProyectoWeb/WebMailProyect/Registro.html">Registrarse </span></a>
-  <pre></pre>
-  </label><br/>
-<!--Boton para ingresar al correo-->
- <a href="file:///C:/Users/Alexander/Documents/Web/ProyectoWeb/WebMailProyect/CorreoSalida.html" target="_self"><span title="Click Para Continuar"><button class = "btn";TYPE="SUBMIT" VALUE="Enviar"title"login" 
- >Log in </button> </span><a/>
-</div>
 
+<form>
+<div >
+	<pre>
+
+
+
+
+
+	</pre>
+	<header>
+		<b>Login</b>
+		<!--ingresar correo y validacion de correo valido-->
+
+	<input type="email" name="email" placeholder="  Email"required >
+	<!--ingresar password-->
+<input type = "password" name "password" placeholder ="  Password" required>
+
+      <p>
+        <input id="checkbox" type="checkbox"  name="checkbox"><label for="checkbox">Seguir Conectado</label>
+        <!-- link para registrarse-->
+    <a id = "link "<span title="Registrese" target = "_Blank"href="file:///C:/Users/Alexander/Documents/Web/ProyectoWeb/WebMailProyect/Registro.html">Registrarse </span></a>
+    </p>
+</form>
+<br/>
+<!--Boton para ingresar al correo -->
+ <a href="file:///C:/Users/Alexander/Documents/Web/ProyectoWeb/WebMailProyect/CorreoSalida.html" target="_self"><span title="Click Para Continuar"><button
+  class = "btn-floating btn-large waves-effect waves-light black";type="submit" title"login" name="action">Login</button></span><a/>
+</form>
+</div>
 </header>
 </body>
 </html>

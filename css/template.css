@@ -4,9 +4,9 @@ width: auto;
 height:auto; 
 font-size: 20px; 
 }
-.cont{margin-left: 10px;}
-.tex{width:400px;height:14px;margin-top: 10px;margin-left: -35px;padding: 2px;resize :none;}
-.texA{width:400px;height:14px;margin-top: 10px;margin-left: -8px;padding: 2px;resize :none;}
+.cont{margin-left: 150px;margin-top: -25px;width: 110px auto;}
+.tex{width:400px;height:30px;margin-top: 10px;margin-left: 5px;padding: 2px;resize :none;}
+.texA{width:400px;height:30px;margin-top: 10px;margin-left: 20px;padding: 2px;resize :none;}
 .estilotextarea {font-family: arial ;font-size : 15px; resize :none; margin-top: 10px;
   margin-left: 10px; width:700px;height:200px;
   background-color: #FFFFFF;border: 1px solid #000000
@@ -14,10 +14,10 @@ font-size: 20px;
   ;scrollbar-dark-shadow-color: #336699;scrollbar-track-color: #666633;
   scrollbar-face-color: #cc9933;scrollbar-shadow-color: #DDDDDD;
   scrollbar-highlight-color: #CCCCCC;}
-  .et{font-size:15px;color:#585858;margin-left: 25px;font-style:oblique;}
-#contenedorTextarea{background-color: #BDBDBD;margin-left:1px;height:550px;width:900 }
-.NewMesa{color:white;margin-left: 5px;}
-#nuevomen{background-color: #BDBDBD;margin-left:80px;height: 38px;width: 786px;}
+  .et{font-size:15px;color:#585858;margin-left: 25px;font-style:oblique;height: 50px;}
+#contenedorTextarea{background-color: #BDBDBD;margin-left:100px;height:520px;width:900 }
+/*.NewMesa{color:white;margin-left: 5px;}*/
+#nuevomen{background-color: #585858;margin-left:20px;height: 38px;width: 741px;}
 .botons{border-radius: 10px;cursor: pointer;font: 10px tahoma,Arial,sans-serif;border:none;
 padding: 5px 15px;
 text-decoration: none;
@@ -130,7 +130,16 @@ border: 1px solid #333;
 letter-spacing: 1px;
 margin-top: -10px;
 }
-#btnR{margin-top: -25px ;margin-left: 10px;}
+#btnR{margin-top: -25px ;margin-left: 40px;}
+.cuadros{ width: 1380px;
+  margin-left: 150px;
+height:70px;
+background-color:#BDBDBD;
+border-radius: 5px;
+  margin-top: -9px;
+  margin-left:-15px;}
+
+
 
 .cuadroR{  width: 1380px;
 height:70px;
@@ -181,6 +190,19 @@ width: 95px;
 
 }
 .goesO{
+border-radius: 10px;cursor: pointer;font: 10px tahoma,Arial,sans-serif;border:none;
+padding: 5px 15px;
+text-decoration: none;
+cursor: pointer;
+border: 1px solid #333;
+letter-spacing: 1px;
+float:left;
+margin-top:-10px;margin-left:-65px;
+width: 95px;
+background-color:#FFFFFF;
+height: 28px;
+}
+.btnRedactar{
 border-radius: 10px;cursor: pointer;font: 10px tahoma,Arial,sans-serif;border:none;
 padding: 5px 15px;
 text-decoration: none;
@@ -252,7 +274,12 @@ margin-top:100px;margin-left:-75px;
 width: 95px;
 height: 35px;
  background-color:#BDBDBD}
-.enviar{cursor: pointer; margin-top:280px;width: 85px;height:35px; border-radius:10px;margin-left:-100px;background-color: #ffffff} 
+.enviar{cursor: pointer; margin-top:290px;width: 85px;height:35px; border-radius:15px;margin-left:-130px;background-color: #ffffff} 
+.botonredactar{cursor: pointer; margin-top:50px;width: 85px;height:35px;
+ border-radius:15px;margin-left:80px;background-color:transparent;color: white} 
+.pos{cursor: pointer;margin-left: 50px;}
+
+
 .botonesR{border-radius: 10px;cursor: pointer;font-size: 15px tahoma,Arial,sans-serif;
 padding: 5px 15px;
 cursor: pointer;

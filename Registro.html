@@ -22,46 +22,37 @@
   </div>
 <!--Formulario para ingresar el usuario y password-->
 
-<label class ="labelR">Registrarse</label><div class = "formR">
+<label class ="labelR">Registrarse</label>
+<div class = "formR">
 <div class = "datos">
 <div class="row">
-  <form class="input-field col s12">
-    <div class="row col s12">
-      <div class="input-field col s12">
-        <input id="nombre" type="text" class="validate">
-        <label for="first_name">Nombre</label>
-         </div>
-      <div class="input-field col s12">
-        <input id="apellidos" type="text" class="validate">
-        <label for="last_name">Apellidos</label>
-      </div>
-    </div>
-    <div class="row col s12">
-      <div class="input-field col s12">
-        <input id="nombre_usuario" type="text" class="validate">
-        <label for="username"> Nombre de usuario</label>
-      </div>
-    </div>
-    <div class="row col s12">
-      <div class="input-field col s12">
-        <input id="password" type="password"name = "password" class="validate"Password" required ">
-        <label for="password">Contraseña</label>
-      </div>
-    </div>
-    <div class="row col s12">
-      <div class="input-field col s12">
-        <input id="email" type="email" class="validate">
-        <label for="email">Email </label>
-      </div>
-    </div>
-    </div>
-  </form>
-<!--Boton para ingresar al correo-->
-<a href="file:///C:/Users/Alexander/Documents/Web/ProyectoWeb/WebMailProyect/Login.html" target="_self" target="_self"><span title="Click Para Continuar"><button
- id="btnR" class = "btn-large  ";type="submit" title"login" name="action">Registrar</button></span><a/>
+<form class="input-field col s12">
+<div class = "row col s12" >
+  <pre>
 
 
 
 
+
+  </pre>
+  <header>
+<!--ingresar nombre y validacion de que el campo no quede en blanco-->
+     <input  type="text" name="Nombre" placeholder = "  Nombre" required>
+    <!--ingresar correo y validacion de correo valido-->
+<input  type="text" name="apellidos" placeholder = "  Apellidos" required>
+<!--ingresar correo y validacion de correo valido-->
+  <input type="email" name="email" placeholder="  Email"required >
+
+  <!--ingresar password-->
+<input type = "password" name "password" placeholder ="  Password" required >
+
+      <p>
+        <input id="checkbox" type="checkbox"  name="checkbox"><label for="checkbox">Seguir Conectado</label>
+       </p>
+<br/>
+<!--Boton para ingresar al correo -->
+ <a href="file:///C:/Users/Alexander/Documents/Web/ProyectoWeb/WebMailProyect/Registro.html" target="_self"><span title="Click Para Continuar"><button
+  class = " btn-large waves-effect waves-light black";type="submit" title"login" name="action">Registrarse</button></span><a/>
+</form>
 </body>
 <html/>

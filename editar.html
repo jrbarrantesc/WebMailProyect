@@ -1,7 +1,13 @@
 <!Doctype html>
 	<html>
+
 	<head>
-		<title>tumail.es</title>
+		<title>Redactar tumail.es</title>
+
+	<script src="ckeditor/ckeditor.js"></script>
+	<script src="ckeditor/samples/js/sample.js"></script>
+	<link rel="stylesheet" href="ckeditor/samples/css/samples.css">
+	<link rel="stylesheet" href="ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta charset="utf-8" />
 <!-- referencias -->
@@ -11,32 +17,50 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
-</head>
-<body>
+
  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
-		<div class ="rectangulo">
+</head>
+<body>
+		<div class ="cuadros">
 		<div class = "img">
 <a target ="blank"><img src ="C:\Users\Alexander\Documents\Web\ProyectoWeb\WebMailProyect\img\tumail.png"alt =""</a></div>
 
            </div>
-           <div class ="btns">
-           	  <a href="file:///C:/Users/Alexander/Documents/Web/ProyectoWeb/WebMailProyect/CrearCorreo.html" target="_self"><button class ="goes1";TYPE="SUBMIT" VALUE="Enviar"><b>Redactar</b></button> <a/><pre></pre>
-<button class = "botones">Enviados(6)</button> <br/>
-<button class = "botones">Borrador</button> <br/>
+           <div class ="btnCorreo">
+           	  <a href="file:///C:/Users/Alexander/Documents/Web/ProyectoWeb/WebMailProyect/CrearCorreo.html" target="_self"><button class =" botonredactar ";TYPE="SUBMIT" VALUE="Enviar"><b>Redactar</b></button> <a/><pre></pre>
+<a href="file:///C:/Users/Alexander/Documents/Web/ProyectoWeb/WebMailProyect/Enviar.html" target="_self"><span title="Click Para ir a Enviados"><button
+class = "pos waves-effect waves-teal btn-flat";type="submit" title"Enviados" name="action">Enviados(6)</button></span><a/><br/>
+<pre>
+</pre>
+
+<a href="file:///C:/Users/Alexander/Documents/Web/ProyectoWeb/WebMailProyect/CorreoSalida.html" target="_self"><span title="Click Para ir a Borradores"><button
+class = "pos waves-effect waves-teal btn-flat";type="submit" title"Borrardor" name="action">Salida</button></span><a/><br/>
+
+<br/>
 </div>
 
 
-          <div id = "nuevomen"><label class = "NewMesa"> Nuevo Mensaje  </label></div>
+          <div id = "nuevomen"><label class = "labelL">Mensaje Nuevo</label></div><br/>
 		<div id ="contenedorTextarea"><br/>
-		<label class ="et">Para:<textarea readonly class = "texA"placeholder="Para:">jabc91@hotmail.com;melvin.r.a@outlook.com;hgomez@gmail.com</textarea><br/>
-		<label class ="et">Asunto:<textarea readonly class = "tex"placeholder="Asunto:">Lecciones</textarea><br/>
-		<label class ="et">CC :       <textarea readonly class = "texA"placeholder="CC:">AlexanderBarrantes10@gmail.com</textarea><br/>
-        <label class ="et">CCO:<textarea readonly class = "texA"placeholder="CCO:"></textarea>
-
-	<textarea  class= "estilotextarea" cols="20" rows="8">No hay clases el día 28 de octubre del 2015. Por motivos de fuerza mayor Gracias.</textarea><br/>
+		<label class ="et">Para:<textarea class = "texA"placeholder=" Para:">jabc91@hotmail.com</textarea><br/>
+		<label class ="et">Asunto:<textarea class = "tex"placeholder=" Asunto:">Consulta tarea numero 5</textarea><br/>
+		<label class ="et">CC :<textarea class = "texA"placeholder=" CC:">jabc91@hotmail.com</textarea><br/>
+        <label class ="et">CCO:<textarea class = "texA"placeholder=" CCO:">AlexanderBarrantes10@gmail.com</textarea><pre></pre>
+<div class= "cont">
+	<main><div class="grid-container"><pre></pre>
+			<div class="grid-width-100">
+				<div id="editor">
+					</div>
+	</main>
 	
+	<script>
+	initSample();
+</script>
+ <a href="file:///C:/Users/Alexander/Documents/Web/ProyectoWeb/WebMailProyect/Enviar.html" target="_self"><button class ="enviar";TYPE="SUBMIT" VALUE="Enviar"><b>Enviar</b></button> <a/><pre></pre>
 
+	</div>
+	
 </div>
 </div>
 

@@ -2,7 +2,7 @@ html
 {
 width: auto;
 height:auto; 
-font-size: 20px; 
+font-size: 25px; 
 }
 .cont{margin-left: 150px;margin-top: -25px;width: 110px auto;}
 .tex{width:400px;height:30px;margin-top: 10px;margin-left: 5px;padding: 2px;resize :none;}
@@ -239,7 +239,7 @@ height: 30px;
 
 }
 .leer{
-  border-radius: 5px;cursor: pointer; font: 10pt Arial ;border:transparent;
+  border-radius: 5px;cursor: pointer; font: 10pt Arial ;border:transparent;background-color:transparent;
 
 text-decoration: none;
 cursor: pointer;
@@ -400,15 +400,3 @@ input:-moz-placeholder {
   color: #888
 }
 
-
-
-.h1 {
-  float: left;
-  margin: 25px;
-  color: #333;
-  font-family: 'Helvetica', sans-serif;
-  font-size: 45px;
-  font-weight: bold;
-  line-height: 45px;
-  text-align: center;
-}

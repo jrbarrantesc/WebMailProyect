@@ -99,8 +99,6 @@ background-color:#BDBDBD;
 border-radius: 20px;
 margin-top: 75px;
 margin-left: 260px;
-
-
 }
 .inpu
 {
@@ -239,16 +237,15 @@ height: 30px;
 
 }
 .leer{
-  border-radius: 5px;cursor: pointer; font: 10pt Arial ;border:transparent;background-color:transparent;
-
+ cursor: pointer;;border:transparent;background-color:transparent;
 text-decoration: none;
 cursor: pointer;
 float:left;
 margin-top:-5px;margin-left:-25px;
-width: 90px;
+width: 10px;
 background-color:#transparent;
 color: #000;
-height: 25px;}
+height: 5px;}
 .etiqueta{
 margin-left: -190px;
 font: 13px tahoma,Arial,sans-serif;border:none;
@@ -290,7 +287,8 @@ height: 35px;
  border-radius:15px;margin-right:-70px;background-color:transparent;color: white}
 
 
-.enviar{cursor: pointer; margin-top:290px;width: 90px;height:35px; border-radius:15px;margin-left:-130px;background-color: #ffffff} 
+.enviar{cursor: pointer; margin-top:290px;width: 90px;height:35px; border-radius:15px;margin-left:-130px;
+  background-color: #ffffff} 
 .botonredactar{cursor: pointer; margin-top:50px;width: 100px;height:35px;
  border-radius:5px;margin-left:6tabla-enviar5px;background-color:#cc0000;color: white} 
 .pos{cursor: pointer;margin-left: 50px;}

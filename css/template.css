@@ -183,6 +183,14 @@ height:500px;
 width:600;
 color: white;
 }
+.tabla-eliminar
+{
+  margin-left: 190px;
+  margin-top: 15px;
+height:500px;
+width:600;
+color: white;
+}
 .goes{
 border-radius: 10px;cursor: pointer;font: 10px tahoma,Arial,sans-serif;border:none;
 padding: 5px 15px;

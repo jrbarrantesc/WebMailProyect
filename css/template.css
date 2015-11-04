@@ -4,29 +4,23 @@ width: auto;
 height:auto; 
 font-size: 25px; 
 }
-.cont{margin-left: 150px;margin-top: -25px;width: 110px auto;}
+.cont{margin-left: 425px;margin-top: -350px;resize :none; }
+.contE{margin-left: 55px;margin-top: -10px;resize :none; }
 .tex{width:400px;height:30px;margin-top: 10px;margin-left: 5px;padding: 2px;resize :none;}
 .texA{width:400px;height:30px;margin-top: 10px;margin-left: 20px;padding: 2px;resize :none;}
 .estilotextarea {font-family: arial ;font-size : 15px; resize :none; margin-top: 10px;
-  margin-left: 10px; width:700px;height:200px;
+  margin-left: 10px; width:800px;height:200px;
   background-color: #FFFFFF;border: 1px solid #000000
   ;scrollbar-arrow-color: #000066;scrollbar-base-color: #000033
   ;scrollbar-dark-shadow-color: #336699;scrollbar-track-color: #666633;
   scrollbar-face-color: #cc9933;scrollbar-shadow-color: #DDDDDD;
   scrollbar-highlight-color: #CCCCCC;}
-  .et{font-size:15px;color:#585858;margin-left: 25px;font-style:oblique;height: 50px;}
-#contenedorTextarea{background-color: #BDBDBD;margin-left:100px;height:520px;width:900 }
-/*.NewMesa{color:white;margin-left: 5px;}*/
+  .et{font-size:15px;color:#585858;margin-left: 25px;font-style:oblique;height: 100px;}
+#contenedorTextarea{background-color: #BDBDBD;margin-left:200px;height:550px;width:57em;padding-right: 70px;}
+
 #nuevomen{background-color: #585858;margin-left:20px;height: 38px;width: 741px;}
-.botons{border-radius: 10px;cursor: pointer;font: 10px tahoma,Arial,sans-serif;border:none;
-padding: 5px 15px;
-text-decoration: none;
-cursor: pointer;
-border: 1px solid #333;
-letter-spacing: 1px;
-float:left;
-margin-top:-10px;margin-left:-65px;
-width: 95px;}
+
+
 body {
 	
     background-color:#585858;
@@ -66,12 +60,7 @@ body {
    {
 float: left;
    }
-  input
-   {
-margin-top:20px;
-margin-left: -200px;
-width: 400px;
-   }
+
 
 
 
@@ -191,31 +180,8 @@ height:500px;
 width:600;
 color: white;
 }
-.goes{
-border-radius: 10px;cursor: pointer;font: 10px tahoma,Arial,sans-serif;border:none;
-padding: 5px 15px;
-text-decoration: none;
-cursor: pointer;
-border: 1px solid #333;
-letter-spacing: 1px;
-float:left;
-margin-top:-10px;margin-left:-65px;
-width: 95px;
 
-}
-.goesO{
-border-radius: 10px;cursor: pointer;font: 10px tahoma,Arial,sans-serif;border:none;
-padding: 5px 15px;
-text-decoration: none;
-cursor: pointer;
-border: 1px solid #333;
-letter-spacing: 1px;
-float:left;
-margin-top:-10px;margin-left:-65px;
-width: 95px;
-background-color:#FFFFFF;
-height: 28px;
-}
+
 .btnRedactar{
 border-radius: 10px;cursor: pointer;font: 10px tahoma,Arial,sans-serif;border:none;
 padding: 5px 15px;
@@ -229,21 +195,7 @@ width: 95px;
 background-color:#FFFFFF;
 height: 28px;
 }
-.goes1{
-border-radius: 5px;cursor: pointer; font: 14pt Arial ;border:none;
-padding: 5px 10px;
-text-decoration: none;
-cursor: pointer;
-border: 1px solid #333;
-letter-spacing: 1px;
-float:left;
-margin-top:-30px;margin-left:-65px;
-width: 108px;
-background-color:#CC0000;
-color: #FFFFFF;
-height: 30px;
 
-}
 .leer{
  cursor: pointer;;border:transparent;background-color:transparent;
 text-decoration: none;
@@ -295,7 +247,7 @@ height: 35px;
  border-radius:15px;margin-right:-70px;background-color:transparent;color: white}
 
 
-.enviar{cursor: pointer; margin-top:290px;width: 90px;height:35px; border-radius:15px;margin-left:-130px;
+.enviar{cursor: pointer; margin-top:20px;width: 90px;height:35px; border-radius:15px;margin-left:75px;
   background-color: #ffffff} 
 .botonredactar{cursor: pointer; margin-top:50px;width: 100px;height:35px;
  border-radius:5px;margin-left:6tabla-enviar5px;background-color:#cc0000;color: white} 

@@ -39,11 +39,11 @@ class = "pos waves-effect waves-teal btn-flat";type="submit" title"Borrardor" na
 
 <br/>
 </div>
-
+<section><form name ="crear">
 
           <div id = "nuevomen"><label class = "labelL">Mensaje Nuevo</label></div><br/>
 		<div id ="contenedorTextarea"><br/>
-		<label class ="et">Para:<textarea class = "texA"placeholder=" Para:"></textarea><br/>
+		<label class ="et">Para:<textarea name ="email" class = "texA"placeholder=" Para:"></textarea><br/>
 		<label class ="et">Asunto:<textarea class = "tex"placeholder=" Asunto:"></textarea><br/>
 		<label class ="et">CC :<textarea class = "texA"placeholder=" CC:"></textarea><br/>
         <label class ="et">CCO:<textarea class = "texA"placeholder=" CCO:"></textarea><pre></pre>
@@ -56,12 +56,15 @@ class = "pos waves-effect waves-teal btn-flat";type="submit" title"Borrardor" na
 	<script>
 	initSample();
 </script>
- <a href="file:///C:/Users/Alexander/Documents/Web/ProyectoWeb/WebMailProyect/Enviar.html" target="_self"><button class ="enviar";TYPE="SUBMIT" VALUE="Enviar"><b>Enviar</b></button> <a/><pre></pre>
-
+ <input
+  type="button" value="Enviar" name="Submit" onclick = "CrearCorreo(document.crear.email)"/>
 	</div>
-	
+	</form>
+	</section>
+
 </div>
 </div>
 
 	</body>
+	<script src="js/js.js"></script>
 	</html>

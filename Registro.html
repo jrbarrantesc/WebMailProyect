@@ -18,7 +18,7 @@
 <body>
  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
-
+<script type="text/javascript" href ="js/js.js"></script>
 <div class="cuadroR">
 <div><a  target ="blank"><img  src ="C:\Users\Alexander\Documents\Web\ProyectoWeb\WebMailProyect\img\tumail.png"alt =""</a></div>
   </div>
@@ -26,10 +26,13 @@
 
 <label class ="labelR">Registrarse</label>
 <div class = "formR">
+
 <div class = "datos">
+
 <div class="row">
-<form class="input-field col s12">
-<div class = "row col s12" >
+
+<form name ="CrearUsuario">
+
   <pre>
 
 
@@ -37,22 +40,22 @@
 
 
   </pre>
-  <header>
+  
 <!--ingresar nombre y validacion de que el campo no quede en blanco-->
-     <input  type="text" name="Nombre" placeholder = "  Nombre" required>
+     <input  type="text" name="Nombre" placeholder = "  Nombre">
     <!--ingresar APELLIDO y validacion de que el campo no quede en blanco-->
-<input  type="text" name="apellidos" placeholder = "  Apellidos" required>
+<input  type="text" name="apellidos" placeholder = "  Apellidos">
 <!--ingresar CORREO y validacion de que el campo no quede en blanco y sea un correo valido-->
-<input type="email" name="email" placeholder="  E-mail"required >
+ <input id ="email" type="email" name="email " placeholder = " email" />
+
 
   <!--ingresar password y validacion de que el campo no quede en blanco-->
-<input type = "password" name "password" placeholder ="  Password" required >
+<input type = "password" name "password" placeholder ="  Password" >
 
-<pre></pre>
 <!--Boton para ingresar al correo -->
- <a href="file:///C:/Users/Alexander/Documents/Web/ProyectoWeb/WebMailProyect/Registro.html" target="_self"><span title="Click Para Continuar"><button
-  class = " btn-large waves-effect waves-light black ";type="submit" title"login" name="action">Registrarse</button></span><a/>
+ <input  type="button" value="Submit" name="Submit" onclick ="ValidateRegistro(document.CrearUsuario.email)"/>
 
 </form>
 </body>
+<script src="js/js.js"></script>
 <html/>
